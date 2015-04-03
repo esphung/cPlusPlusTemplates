@@ -11,7 +11,8 @@ int main(){
 
 	cout << "Hello OOP Template" << endl;
 
-	Test test;
+
+	Test testObject;
 
 	return 0;
 }

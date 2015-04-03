@@ -1,7 +1,7 @@
 run:
 	./programOutputName
 
-program: main.o testClass.o
+all: main.o testClass.o
 	g++ main.o testClass.o -o programOutputName
 
 clean:
