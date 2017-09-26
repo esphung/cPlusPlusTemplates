@@ -6,6 +6,7 @@ all: main.o testClass.o
 
 clean:
 	rm -rf *.o
+	rm -rf programOutputName
 
 main.o: main.cpp testClass.h
 	g++ -c main.cpp
